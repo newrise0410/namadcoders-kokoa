@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+
+
+body {
+    font-family:'KakaoBold', "Anton";
+}
+
+@font-face {
+    font-family: 'KakaoBold';
+    src: url('../font/KakaoBold.ttf');
+}

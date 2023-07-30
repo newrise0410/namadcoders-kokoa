@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to kokoaTalk</title>
-</head>
-<body
-    <div id="status-bar">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+<body>
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>   
             <!-- To Do: Wifi Icon-->
         </div>
         <div class="status-bar__column">
             <span>18:43</span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-plug-circle-bolt"></i>
             <!--Battery Icon-->
             <!--Lightning Icon-->
         </div>
     </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+        <p class="welcome-header__text">
+            If you have a Kokoa Account, log in with your email or phone number.
+        </p>
+    </header>
+
+
+    <form action="friens.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number"/>
+        <input name="password" type="password" placeholder="Password" />
+        <input type="submit" value="Log in" />
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+
+    <script src="https://kit.fontawesome.com/e00899f66a.js" crossorigin="anonymous"></script>
 </body>
 </html>
