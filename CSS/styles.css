@@ -5,16 +5,27 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
 
 /* Screens */
 @import "screens/login.css";
-
-
-body {
-    font-family:'KakaoBold', "Anton";
-}
+@import "screens/friends.css";
 
 @font-face {
     font-family: 'KakaoBold';
     src: url('../font/KakaoBold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'KakaoRegular';
+    src: url('../font/KakaoRegular.ttf');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'KakaoRegular', 'KakaoBold', "Anton";
+    color: #2e363e;
 }
