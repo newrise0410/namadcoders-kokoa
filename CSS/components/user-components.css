@@ -7,7 +7,11 @@
     display: flex;
     align-items: center;
     font-size: 22px;
-    padding-top: 10px;
+    padding-top: 5px;
+}
+
+.user-component img, h4, span, i {
+    cursor: pointer;
 }
 
 .user-component__avatar {
@@ -43,4 +47,22 @@
 
 .user-component__column:last-child {
     color:rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-component__time {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.ch-num {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+}
+.ch-right {
+    padding: 9px 5px;
+    font-size: 20px;
 }
