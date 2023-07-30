@@ -1,0 +1,41 @@
+.more-screen .icon-row {
+    margin-top: 35px;
+}
+
+.icon-row__icon {
+    position: relative;
+}
+
+.more-suggestions__title{
+    margin-bottom: 15px;
+}
+
+.more-suggestions__icons{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.more-suggestions__icons-Appicon {
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+}
+
+.more-suggestions__title {
+    border-top: 1px solid rgba(0,0,0,0.5);
+    padding-top: 15px;
+    font-family: 'kakaoBold';
+    font-size: 17px;
+}
+
+.more-suggestions__icons-Appicon img {
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.more-suggestions__icons-Appicon span {
+    font-size: 15px;
+    color:var(--gray);
+}
