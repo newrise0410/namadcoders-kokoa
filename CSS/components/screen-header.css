@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-between;
     cursor:pointer;
+    padding-top: 20px;
+    
 }
 
 .screen-header__title {
